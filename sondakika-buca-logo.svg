@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16233f"/>
+      <stop offset="1" stop-color="#0a1226"/>
+    </linearGradient>
+    <clipPath id="circle"><circle cx="540" cy="540" r="500"/></clipPath>
+  </defs>
+
+  <!-- zemin -->
+  <circle cx="540" cy="540" r="520" fill="#d71920"/>
+  <circle cx="540" cy="540" r="500" fill="url(#bg)"/>
+
+  <g clip-path="url(#circle)">
+    <!-- alt kırmızı bant -->
+    <rect x="0" y="690" width="1080" height="400" fill="#d71920"/>
+    <rect x="0" y="678" width="1080" height="12" fill="#ffffff"/>
+  </g>
+
+  <!-- SON DAKİKA etiketi -->
+  <g>
+    <rect x="240" y="188" width="600" height="92" rx="14" fill="#d71920"/>
+    <circle cx="308" cy="234" r="15" fill="#ffffff"/>
+    <circle cx="308" cy="234" r="27" fill="none" stroke="#ffffff" stroke-width="5" opacity="0.55"/>
+    <text x="580" y="260" text-anchor="middle" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="58" fill="#ffffff" letter-spacing="2">SON DAKİKA</text>
+  </g>
+
+  <!-- ana yazı -->
+  <text x="540" y="505" text-anchor="middle" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="196" fill="#ffffff" letter-spacing="-4">BUCA</text>
+  <rect x="300" y="545" width="480" height="8" rx="4" fill="#d71920"/>
+  <text x="540" y="618" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="54" fill="#c9d3ea" letter-spacing="6">HABER · İZMİR</text>
+
+  <!-- kullanıcı adı -->
+  <text x="540" y="810" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="64" fill="#ffffff">@sondakika.buca</text>
+  <text x="540" y="885" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="36" fill="#ffd9db" letter-spacing="4">YEREL HABERİN ADRESİ</text>
+</svg>
